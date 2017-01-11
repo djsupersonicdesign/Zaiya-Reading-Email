@@ -183,11 +183,7 @@ class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             
             revealviewcontroller.pushFrontViewController(newFrontController, animated: true)
             
-            GIDSignIn.sharedInstance().signInSilently()
-            let user = GIDSignIn.sharedInstance().currentUser
             
-            let authentication = user?.authentication
-            let utoken = authentication?.accessToken
         }
         
         if cell.lblMenuname.text! == "Starred"
@@ -200,11 +196,7 @@ class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             
             revealviewcontroller.pushFrontViewController(newFrontController, animated: true)
             
-            GIDSignIn.sharedInstance().signInSilently()
-            let user = GIDSignIn.sharedInstance().currentUser
-            
-            let authentication = user?.authentication
-            let utoken = authentication?.accessToken
+        
         }
 
         if cell.lblMenuname.text! == "Important"
@@ -216,12 +208,7 @@ class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             let newFrontController = UINavigationController.init(rootViewController: newViewcontroller)
             
             revealviewcontroller.pushFrontViewController(newFrontController, animated: true)
-            
-            GIDSignIn.sharedInstance().signInSilently()
-            let user = GIDSignIn.sharedInstance().currentUser
-            
-            let authentication = user?.authentication
-            let utoken = authentication?.accessToken
+        
         }
 
         if cell.lblMenuname.text! == "Spam"
@@ -234,11 +221,6 @@ class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             
             revealviewcontroller.pushFrontViewController(newFrontController, animated: true)
             
-            GIDSignIn.sharedInstance().signInSilently()
-            let user = GIDSignIn.sharedInstance().currentUser
-            
-            let authentication = user?.authentication
-            let utoken = authentication?.accessToken
         }
 
         if cell.lblMenuname.text! == "Map"
@@ -249,12 +231,7 @@ class menuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         if cell.lblMenuname.text! == "Setting"
         {
            print("setting Tapped")
-            
-            GIDSignIn.sharedInstance().signInSilently()
-            let user = GIDSignIn.sharedInstance().currentUser
-            
-            let authentication = user?.authentication
-            let utoken = authentication?.accessToken
+          
         }
         
         if cell.lblMenuname.text! == "Log out"

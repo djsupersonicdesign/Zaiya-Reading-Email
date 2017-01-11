@@ -23,15 +23,13 @@
 		523D96931DD9BFF100CAD4A9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523D96921DD9BFF100CAD4A9 /* SystemConfiguration.framework */; };
 		523D96951DD9CA5B00CAD4A9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523D96941DD9CA5B00CAD4A9 /* AdSupport.framework */; };
 		524AF0B61DBF2C80002C9F1B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524AF0B51DBF2C80002C9F1B /* AVFoundation.framework */; };
-		526D44961DC0ABC600F871AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 526D44951DC0ABC600F871AE /* GoogleService-Info.plist */; };
-		526D44971DC0ABC600F871AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 526D44951DC0ABC600F871AE /* GoogleService-Info.plist */; };
-		526D44981DC0ABC600F871AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 526D44951DC0ABC600F871AE /* GoogleService-Info.plist */; };
 		52765B611DCA4D87009C0360 /* ViewThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52765B601DCA4D87009C0360 /* ViewThree.swift */; };
 		5292C0171DC391C80012EBF5 /* ViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292C0161DC391C80012EBF5 /* ViewTwo.swift */; };
 		52A3A8351DCB2F20001920A2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A3A8341DCB2F20001920A2 /* TableViewCell.swift */; };
 		52CD897C1DC5BDB500C1EC4C /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 52CD897B1DC5BDB500C1EC4C /* assets */; };
 		52F500C11DD62349006BDC9B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F500C01DD62349006BDC9B /* LoginViewController.swift */; };
 		A516A3841E1C7EB0007638A3 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A516A3831E1C7EB0007638A3 /* InboxViewController.swift */; };
+		A536D40E1E26140200770948 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A536D40D1E26140200770948 /* GoogleService-Info.plist */; };
 		A596268D1E1DF446006DB7BC /* Starred.swift in Sources */ = {isa = PBXBuildFile; fileRef = A596268C1E1DF446006DB7BC /* Starred.swift */; };
 		A596268F1E1DF478006DB7BC /* Important.swift in Sources */ = {isa = PBXBuildFile; fileRef = A596268E1E1DF478006DB7BC /* Important.swift */; };
 		A59626911E1DF579006DB7BC /* Spam.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59626901E1DF579006DB7BC /* Spam.swift */; };
@@ -81,7 +79,6 @@
 		523D96921DD9BFF100CAD4A9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		523D96941DD9CA5B00CAD4A9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		524AF0B51DBF2C80002C9F1B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		526D44951DC0ABC600F871AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		52765B601DCA4D87009C0360 /* ViewThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewThree.swift; sourceTree = "<group>"; };
 		5292C0161DC391C80012EBF5 /* ViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTwo.swift; sourceTree = "<group>"; };
 		52A024C41DBF6A6B00A459D5 /* ipad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ipad.entitlements; sourceTree = "<group>"; };
@@ -93,6 +90,7 @@
 		701B9A83599E418212BA0AB9 /* Pods-ipad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipad/Pods-ipad.debug.xcconfig"; sourceTree = "<group>"; };
 		A08511EDE125950DD31A6A11 /* Pods_ipadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ipadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A516A3831E1C7EB0007638A3 /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		A536D40D1E26140200770948 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A596268C1E1DF446006DB7BC /* Starred.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Starred.swift; sourceTree = "<group>"; };
 		A596268E1E1DF478006DB7BC /* Important.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Important.swift; sourceTree = "<group>"; };
 		A59626901E1DF579006DB7BC /* Spam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spam.swift; sourceTree = "<group>"; };
@@ -198,7 +196,7 @@
 				522E1E141DBE11E0005095FB /* Assets.xcassets */,
 				522E1E161DBE11E0005095FB /* LaunchScreen.storyboard */,
 				522E1E191DBE11E0005095FB /* Info.plist */,
-				526D44951DC0ABC600F871AE /* GoogleService-Info.plist */,
+				A536D40D1E26140200770948 /* GoogleService-Info.plist */,
 				522E1E111DBE11E0005095FB /* ipad.xcdatamodeld */,
 				5232D5FC1DC05FEF0089D9DE /* ipad-Bridging-Header.h */,
 			);
@@ -369,10 +367,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				522E1E181DBE11E0005095FB /* LaunchScreen.storyboard in Resources */,
-				526D44961DC0ABC600F871AE /* GoogleService-Info.plist in Resources */,
 				522E1E151DBE11E0005095FB /* Assets.xcassets in Resources */,
 				52CD897C1DC5BDB500C1EC4C /* assets in Resources */,
 				522E1E101DBE11E0005095FB /* Main.storyboard in Resources */,
+				A536D40E1E26140200770948 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +378,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526D44971DC0ABC600F871AE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +385,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526D44981DC0ABC600F871AE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,7 +643,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -691,7 +687,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
